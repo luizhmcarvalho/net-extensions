@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageId>LC.Net.Extensions</PackageId>
+        <Title>LC Net Extensions</Title>
+        <Authors>Luiz Carvalho</Authors>
+        <Description>Pacote de Extensòes para .NET</Description>
+        <Copyright>2021 Luiz Carvalho</Copyright>
+        <PackageProjectUrl>https://github.com/luizhmcarvalho/net-extensions</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/luizhmcarvalho/net-extensions/master/LICENSE</PackageLicenseUrl>
+        <PackageIconUrl>https://travelpedia.com.br/wp-content/uploads/2018/01/wine-icon.png</PackageIconUrl>
+        <RepositoryUrl>https://github.com/luizhmcarvalho/net-extensions</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <Company>Luiz Carvalho</Company>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>.netSignin.snk</AssemblyOriginatorKeyFile>
+        <PublicSign>true</PublicSign>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <Optimize>true</Optimize>
+      <WarningLevel>1</WarningLevel>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <WarningLevel>1</WarningLevel>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
+</Project>

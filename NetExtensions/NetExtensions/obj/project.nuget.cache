@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "id1qsLxeAQAOqqczM+MZ6cDg5ojlJ27Eg8baSu04sRUiFFaJiD991QX7iMrJaamAbGQiIphRQmUw/KbqQc7DaQ==",
+  "success": true,
+  "projectFilePath": "/Users/luizcarvalho/Projects/Personal/NetExtensions/NetExtensions/NetExtensions/NetExtensions.csproj",
+  "expectedPackageFiles": [
+    "/Users/luizcarvalho/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
